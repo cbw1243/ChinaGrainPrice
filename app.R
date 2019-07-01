@@ -30,7 +30,9 @@ ui <- fluidPage(
     plotOutput("pricePlot"),
     textOutput("text1"),
     hr(),
-    helpText("Suggested citation: Chen, B., N. Villoria, T. Xia (2019). Tariff Quota Administration in China’s Grain Markets: An Empirical Assessment. Agricultural Economics (Forthcoming)")
+    helpText("Suggested citation: Chen, B., N. Villoria, T. Xia (2019). Tariff Quota Administration in China’s Grain Markets: An Empirical Assessment. Agricultural Economics (Forthcoming)."),
+    hr(),
+    helpText('You can download the data and codes from this website: https://github.com/cbw1243/ChinaGrainPrice')
   )
 )
 
